@@ -193,7 +193,7 @@ class HBNBCommand(cmd.Cmd):
             print("** attribute name missing **")
             return False
         if len(tokens) < 4:
-            print("** value is  missing **")
+            print("** value is missing **")
             return False
         return True
 
